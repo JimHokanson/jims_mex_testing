@@ -71,6 +71,8 @@ void mexFunction(int nlhs, mxArray *plhs[], int nrhs, const mxArray*prhs[])
 
         }
         plhs[0] = mxDuplicateArray(s2);            
+    }else if (option == 4){
+        
     }
     
     //setStructField(plhs[0],types,"types",mxUINT8_CLASS,current_data_index + 1);

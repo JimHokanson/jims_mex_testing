@@ -38,6 +38,12 @@ fprintf('Option 3: %0.1f us\n',toc/N*1e6);
 
 tic;
 for i = 1:N
+f001(4);
+end
+fprintf('Option 4: %0.1f us\n',toc/N*1e6);
+
+tic;
+for i = 1:N
 data = f001(2);
 end
 fprintf('Option 2: %0.1f us\n',toc/N*1e6);
