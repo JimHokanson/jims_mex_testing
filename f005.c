@@ -4,11 +4,6 @@
 
 struct sdata 
 { 
-   //char name[50]; 
-   //char street[100]; 
-   //char city[50]; 
-   //char state[20]; 
-   
    int buffer_added;
    int alloc__n_tokens_allocated;
    int alloc__n_objects_allocated;
